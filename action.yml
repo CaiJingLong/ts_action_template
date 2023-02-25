@@ -1,7 +1,8 @@
-name: 'dio check changelog for pull request'
-description: 'Check the pull request must have a changelog'
+name: 'Your action name'
+description: 'Your action description'
 author: 'Your name or organization here'
 inputs:
+  # You can define multiple inputs
   github-token:
     required: true
     description: 'Github token'
