@@ -1,5 +1,5 @@
 name: 'build-test'
-run-name: 'Build and Test ${{ github.ref }} by ${{ github.actor }}'
+run-name: 'Build and test ${{ github.ref }} by ${{ github.actor }}'
 on: # rebuild any PRs and main branch changes
   pull_request:
     paths:
